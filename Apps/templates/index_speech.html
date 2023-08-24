@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Speech-to-Text App</title>
+  </head>
+  <body>
+    <h1>Speech-to-Text App</h1>
+    <p>Click the button below and start speaking:</p>
+    <button onclick="startRecording()">Start Recording</button>
+    <div id="results"></div>
+
+    <script>
+      function startRecording() {
+        var recognition = new webkitSpeechRecognition();
+        recognition.onresult = function(event) {
+          var result = event.results[event.results.length - 1][0].transcript;
+          document.getElementById("results").innerHTML = result;
+          recognition.stop();
+          submitForm(result);
+        };
+        recognition.start();
+      }
+
+      function submitForm(result) {
+        var form = document.createElement("form");
+        form.setAttribute("method", "post");
+        form.setAttribute("action", "/convert");
+        var hiddenField = document.createElement("input");
+        hiddenField.setAttribute("type", "hidden");
+        hiddenField.setAttribute("name", "text");
+        hiddenField.setAttribute("value", result);
+        form.appendChild(hiddenField);
+        document.body.appendChild(form);
+        form.submit();
+      }
+    </script>
+  </body>
+</html>
