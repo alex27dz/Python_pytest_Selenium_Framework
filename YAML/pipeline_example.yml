@@ -1,0 +1,42 @@
+# Name of our source code branch - updated branch
+trigger:
+  - updated
+
+pool: Azure Pipelines  # Pool of VMs for execution  - Azure Pipelines
+
+
+steps:
+# Step 1 - python version
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: 3.x
+
+# Step 2 - Installing required packages
+  - script: |
+      pip install selenium pytest
+      pip install -r YAML/requirements.txt
+      pip install Functions
+      pip install pytest-html
+    # python -m pip install pytest
+    # python -m pytest
+    displayName: 'Installing required packages'
+
+
+# Step 3 - test files execution + HTML report and output in JUnit and HTML formats
+  - script: |
+      pytest -v Tests/test_suit.py --junitxml=junit/test-results.xml --html=report.html
+    displayName: 'Full functionality - testing + HTML report'
+
+  - script: |
+      pytest -v Tests/test_api.py --junitxml=junit/test-results.xml --html=report.html
+    displayName: 'API - testing + HTML report'
+
+  - script: |
+      pytest -v Tests/test_db.py --junitxml=junit/test-results.xml --html=report.html
+    displayName: 'Database - testing + HTML report'
+
+  - script: |
+      pytest -v Tests/test_performance.py --junitxml=junit/test-results.xml --html=report.html
+    displayName: 'Performance - testing + HTML report'
+
+

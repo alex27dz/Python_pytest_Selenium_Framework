@@ -1,3 +1,5 @@
+
+'''
 Bash and terminal commands in Linux:
 
 ls: List files and directories in the current directory.
@@ -30,3 +32,4 @@ wget: Download files from the internet.
 curl: Transfer data with URLs.
 history: Display the command history.
 man: Display the manual page of a command.
+'''

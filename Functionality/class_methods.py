@@ -1,28 +1,36 @@
+import pytest
+
 '''
-@classmethod | Setup_class(cls) | Setup_method(self, method) | teardown_class(cls) | teardown_method(self, method)
-When running test cases within a test Class we will use setup and teardown functions
-* @classmethod - stetup_class(css) and teardown_class(css) - used for doing actions at the beginning of the class or at the end
-* setup_method and teardown method - used for doing actions before every test case
-Flow
-1 - @classmethod - stetup_class(css)
-2 - setup_method(self, method)
-3 - test case 1
-4 - teardown_method(self, method)
-5 - setup_method(self, method)
-6 - test case 2
-7 - teardown_method(self, method)
-8 - @classmethod - teardown_class(css)
+* @classmethod - stetup_class(css) and teardown_class(css) - used for doing actions at the beginning of the class and at the end
+* setup_method and teardown method - used for doing actions before and after every test case
 
 Structure:
 Test_Class
-@classmethod - starupclass(cls) - setting up class such as connecting into DB
-Test cases in the class
-Test cases in the class
-Test cases in the class
-Test cases in the class
-@classmethod - teardownclass(cls) - tearing down class such as closing connecting with DB
+@classmethod
+stetup_class(cls)
+setup_method(self, method)
+teardown_method(self, method)
+test case 1
+test case 2
+test case 3
+@classmethod
+teardown_class(cls)
+
+When running:
+@classmethod
+stetup_class(cls) -> runs before everything within the class
+setup_method(self, method) -> runs before every test case in the class
+test case 1
+teardown_method(self, method)
+setup_method(self, method) -> runs before every test case in the class
+test case 2
+teardown_method(self, method)
+setup_method(self, method) -> runs before every test case in the class
+test case 3
+teardown_method(self, method)
+@classmethod
+teardown_class(cls)
 '''
-import pytest
 
 class TestExample:
     @classmethod
