@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f9a193d-8416-436c-b38b-d3fad7efe869" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Functionality/Bash_terminal_Linux" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/Homeanalyzer_classes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/JM_scenarios_functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/chatgpt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/class_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/class_methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/email.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/mysql.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/syntax_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/syntax_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_mobile.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_mobile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_web.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/MySQL_server_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/Syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/email_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_APIs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/func_APIs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_Performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/func_Performance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_syntax_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/func_syntax_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/new_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/new_file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/new_list_performance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/new_sql_connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/new_sql_connector_microsoft.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/terminal_Linux_bash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/testfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
