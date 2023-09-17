@@ -6,21 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f9a193d-8416-436c-b38b-d3fad7efe869" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/MySQL_server_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/Syntax.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/email_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_APIs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/func_APIs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_Performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/func_Performance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Functionality/func_syntax_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/func_syntax_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/hello.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/new_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/new_file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/new_list_performance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/new_sql_connector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/new_sql_connector_microsoft.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/terminal_Linux_bash.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/testfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/syntax_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/syntax_examples.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +45,28 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.func_database_sql">
+  <component name="RunManager" selected="Python.assessments_ChatGPT">
+    <configuration name="assessments_ChatGPT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Concepts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functionality" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functionality/assessments_ChatGPT.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="func_database_sql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Concepts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,29 +136,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in APIs.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Concepts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functionality" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Functionality/APIs.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.assessments_ChatGPT" />
         <item itemvalue="Python.func_database_sql" />
         <item itemvalue="Python tests.pytest for APIs.test_create_post_no_authentication" />
         <item itemvalue="Python tests.pytest for APIs.test_error_handling" />
         <item itemvalue="Python tests.pytest for APIs.test_post_with_authentication" />
-        <item itemvalue="Python tests.pytest in APIs.py" />
       </list>
     </recent_temporary>
   </component>
