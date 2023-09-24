@@ -26,15 +26,6 @@ The response typically includes:
 Authentication:
 Many APIs require authentication to ensure only authorized users can access their resources.
 This is often done using tokens (API keys, access tokens, etc.) that are included in the request headers.
-
-
-Add the APIs here
-https://netsdc.visualstudio.com/SDC/_workitems/edit/98391	1	CMS API: Online Offerings - Delete
-https://netsdc.visualstudio.com/SDC/_workitems/edit/98387	2	CMS API: Online Offerings - Update (Patch)
-https://netsdc.visualstudio.com/SDC/_workitems/edit/98383	3	CMS API: Online Offerings - Add
-https://netsdc.visualstudio.com/SDC/_workitems/edit/98377	4	CMS API: Class Offerings - Delete
-https://netsdc.visualstudio.com/SDC/_workitems/edit/98372	5	CMS API: Class Offerings - Update (Patch)
-https://netsdc.visualstudio.com/SDC/_workitems/edit/98194	6	CMS API: Class Offerings - Add
 '''
 
 import requests

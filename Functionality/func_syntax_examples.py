@@ -1,11 +1,14 @@
 '''  python Syntax  '''
+print('python syntax')
 
 
 def variables():
-    name = "John"
-    age = 25
-    height = 1.75
-    is_student = True
+    name = 'alex'
+    age = 15
+    print(type(age), type(name))
+    is_flag = True
+    same_flag = False
+    print(type(is_flag), type(same_flag))
 
 def strings():
     string = 'example'
@@ -80,21 +83,76 @@ def dictionary():
     person = {"name": "Alice", "age": 25, "city": "New York"}
     print(person["name"])
 
-def email_send():
+    dicty = {
+        'Key1': 'value1',
+        'Key2': 'value2',
+        'Key3': 'value3'
+    }
+
+    print(type(dicty))
+    print(dicty)
+    print(dicty['Key1'])
+
+    my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
+
+    # Key to search for
+    key_to_find = 'alex'
+
+    # Initialize a variable to store the found key
+    found_key = None
+
+    # Iterate through the dictionary
+    for key in my_dict:
+        if key == key_to_find:
+            found_key = key
+            break  # Stop searching once the key is found
+
+    if found_key is not None:
+        print(f"Key '{key_to_find}' is present in the dictionary")
+    else:
+        print(f"Key '{key_to_find}' is not present in the dictionary")
+
+    my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
+
+    # Value to search for
+    value_to_find = 'John'
+
+    # Initialize a variable to store the found key
+    found_key = None
+
+    # Iterate through the dictionary
+    for key, value in my_dict.items():
+        if value == value_to_find:
+            found_key = key
+            break  # Stop searching once the value is found
+
+    if found_key is not None:
+        print(f"Key for value '{value_to_find}' is '{found_key}'")
+    else:
+        print(f"Value '{value_to_find}' not found in the dictionary")
+
+    print(my_dict.items())
+
+    print(len(my_dict))
+
+
+def gmail_send():
     import yagmail
 
-    # Email
     email = 'alex27dz@gmail.com'
-    subject = 'test1'
-    body = 'hello world'
-    pass_auth = 'yeqnnbfgkfetetcr'
+    resciever = 'alex31mann@gmail.com'
 
-    def send_email(email, subject, body):
-        ya_email = yagmail.SMTP('alex27dz@gmail.com', pass_auth)
-        ya_email.send(email, subject, body)
-        print('email sent')
+    subject = 'Hi its a test'
+    body = 'Life is perfect'
+    auth = 'yeqnnbfgkfetetcr'
 
-    send_email(email, subject, body)
+    def send_gmail(email, resciever, subject, body):
+        ya_email = yagmail.SMTP(email, auth)
+        ya_email.send(resciever, subject, body)
+        print('Email sent')
+
+    send_gmail(email, resciever, subject, body)
+
 
 def linux_bash_commands():
     '''

@@ -26,6 +26,7 @@ def count_up_to(n):
     while i <= n:
         yield i
         i += 1
+
 # Using the generator function
 counter = count_up_to(5)
 print(next(counter))  # Output: 1
