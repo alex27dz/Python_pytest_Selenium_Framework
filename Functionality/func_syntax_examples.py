@@ -1,5 +1,4 @@
-'''  python Syntax  '''
-print('python syntax')
+print('Python Syntax')
 
 
 def variables():
@@ -9,7 +8,6 @@ def variables():
     is_flag = True
     same_flag = False
     print(type(is_flag), type(same_flag))
-
 def strings():
     string = 'example'
     substring = 'example2'
@@ -30,7 +28,6 @@ def strings():
     string.isnumeric()  # Returns True if the string consists of only numeric characters.
     string.isalpha()  # Returns True if the string consists of only alphabetic characters.
     string.isalnum()  # Returns True if the string consists of only alphanumeric characters.
-
 def lists():
     lista = [5, 2, 3]
     print(lista)
@@ -55,7 +52,6 @@ def lists():
     listb.clear()  # Removes all elements from the list
     iterable = 'a'
     listb.extend(iterable)  # Appends the elements of an iterable to the end of the list.
-
 def dictionary():
     fruits = {
         "apple": 1,
@@ -132,12 +128,9 @@ def dictionary():
         print(f"Value '{value_to_find}' not found in the dictionary")
 
     print(my_dict.items())
-
     print(len(my_dict))
-
-
 def gmail_send():
-    import yagmail
+    import yagmail  # working with yaGmail
 
     email = 'alex27dz@gmail.com'
     resciever = 'alex31mann@gmail.com'
@@ -147,17 +140,14 @@ def gmail_send():
     auth = 'yeqnnbfgkfetetcr'
 
     def send_gmail(email, resciever, subject, body):
-        ya_email = yagmail.SMTP(email, auth)
-        ya_email.send(resciever, subject, body)
+        ya_email = yagmail.SMTP(email, auth)  # sender and authentication
+        ya_email.send(resciever, subject, body)  # resciever, subject title , body
         print('Email sent')
 
     send_gmail(email, resciever, subject, body)
-
-
 def linux_bash_commands():
     '''
     Bash and terminal commands in Linux:
-
     ls: List files and directories in the current directory.
     cd: Change the current directory.
     pwd: Print the working directory (current directory).
@@ -166,6 +156,9 @@ def linux_bash_commands():
     cp: Copy files or directories.
     mv: Move or rename files or directories.
     touch: Create an empty file or update the access/modification time of a file.
+    '''
+
+    '''
     cat: Concatenate and display the content of files.
     more: Display file content one screen at a time.
     less: View file content with backward navigation support.
@@ -189,7 +182,22 @@ def linux_bash_commands():
     history: Display the command history.
     man: Display the manual page of a command.
     '''
+def os_library_commands():
+    # OS - operating systems library
 
+    import os
+    # os.rename('old_file.txt', 'new_file.txt')  # Rename a file
+    # os.remove('file.txt')  # Delete a file
+    # os.mkdir('new_directory')  # Create a directory
+    # os.rmdir('existing_directory')  # Remove a directory
+    # current_dir = os.getcwd()  # Get the current working directory
+    # os.chdir('new_directory')  # Change the current working directory
+    abs_path = os.path.abspath('data.txt')  # Get the absolute path
+    size = os.path.getsize('new_file.txt')
+    path = os.path.exists('file.txt')
+    path2 = os.path.isfile('file.txt')
+    path3 = os.path.isdir('directory')
+    path4 = os.path.join('folder', 'file.txt')
 def built_in_funcs():
     # Built-in functions
     my_list1 = [1, 2, 3]
@@ -302,8 +310,6 @@ def built_in_funcs():
     zipped = zip(numbers, letters)
     for item in zipped:
         print(item)  # Output: # (1, 'A')# (2, 'B')# (3, 'C')
-
-
 def if_statement():
     # if statements
     age = 19
@@ -311,7 +317,6 @@ def if_statement():
         print('adult')
     else:
         print('child')
-
 def for_while_loops():
     # For Loops
     for i in range(1, 10):
@@ -325,8 +330,6 @@ def for_while_loops():
     while i < 10:
         print(i, 'while loop')
         i += 1
-
-
 def break_continue():
     # Control Flow
     for i in range(1, 10):
@@ -337,6 +340,171 @@ def break_continue():
         if i == 5:
             continue
         print(i)
+def function_example():
+    print('doing something')
+    return True
+def yield_functionality():
+    # Yield - temporarily suspends execution and returns the yielded value (using generator)
+    # Instead of using return, we use the yield keyword. This turns the function into a generator,
+    # allowing it to "pause" its execution state and yield each line of the file one by one as you iterate over it.
+    # This approach is useful when dealing with large files or when you want to process data lazily,
+    # one piece at a time, without loading everything into memory
+
+    real_numbers_list = [1, 2, 3, 4, 5]
+
+    def number_generator(number_list):  # yield the numbers in the list
+        for num in number_list:
+            print(num)
+            yield num
+
+
+    # (must) creating generator - combining the list with the functions that yield
+    gen = number_generator(real_numbers_list)
+
+    # printing back the yield numbers using generator
+    for item in gen:
+        print(item)
+def fibonacci_list_append(n):
+    if n<=0:
+        print('no items in the list')
+    else:
+        if n==1:
+            print('one element')
+            return [0]
+        else:
+            if n==2:
+                print('two elements')
+            else:
+                if n>=3:
+                    print('fibonacci list of ', n, ' elements')
+                    fibo_list = [0,1]
+                    for i in range(2,n):
+                        print('element num', i)
+                        new_item = fibo_list[i-1] + fibo_list[i-2]
+                        fibo_list.append(new_item)
+                    print(fibo_list)
+                    return fibo_list
+
+    # fibo = fibonacci_list_append(10)
+    # print(fibo)
+    # print(type(fibo))
+def map_function():
+    # combining a function with a list or numbers to perform an action
+    # map (function, list_of_numbers)
+    # running the function for all list_of_numbers
+
+    def square(x):    # Define a function to square a number
+        return x ** 2
+
+    numbers = [1, 2, 3, 4, 5]
+    squared_numbers = map(square, numbers)  # Use map() to apply the square function to each number in the list
+    print(type(squared_numbers))
+    squared_numbers = list(squared_numbers)  # Convert the map object to a list
+    print(squared_numbers)
+def lambda_function():
+    # Lambda function - used for short, one-time operations
+    # lambda     arguments : expression
+    # lambda  [parameters] : [actions]
+
+    # arithmetic
+    add = lambda x, y: x + y  # lambda function
+    multiply = lambda x, y: x * y  # lambda function
+    print(add(5, 6))
+    print(multiply(5, 6))
+
+    # list functions
+    numbers = [1, 2, 3, 4, 5]
+    squared_numbers = [x ** 2 for x in numbers]
+    print(squared_numbers)
+
+    # sorting inside a list of dictionaries
+    students = [{'name': 'Alice', 'age': 25}, {'name': 'Bob', 'age': 22}, {'name': 'Charlie', 'age': 28}]
+    print(students)
+    print(type(students.sort(key=lambda student: student['age'])))
+    print(students)
+
+    numbers = [1, 2, 3, 4, 5]
+    squared_numbers = list(map(lambda x: x ** 2, numbers))
+def files_read():
+    # reading from a file
+    file = open('text_example_file.txt', 'r')
+    content = file.read()
+    print(content)
+    file.close()
+def files_write_create():
+    # writing to a file / creating a file
+    new_content = 'Hi Im Alex and this is a new content'
+    file = open('new_file.txt', 'w')
+    file.write(new_content)
+    file.close()
+    # reading from a file
+    file = open('new_file.txt', 'r')
+    content = file.read()
+    print(content)
+    file.close()
+def files_appending():
+    file = open('data.txt', 'a')  # appending data into a file
+    file.write('\nAppending new data.')
+    file.close()
+def try_except():
+    # try except
+    try:
+        print('hi')
+    except:
+        try:
+            print('bye')
+        except:
+            print('nothing')
+    # Exceptions
+    try:
+        fh = open("testfile", "w")
+        fh.write("This is my test file for exception handling!!")
+    except IOError:
+        print("Error: can\'t find file or read data")
+    else:
+        print("Written content in the file successfully")
+        fh.close()
+class Car:
+    def __init__(self, color, brand):
+        self.color = color
+        self.brand = brand
+
+    def car_color(self):
+        print(self.color)
+
+    def car_brand(self):
+        print(self.brand)
+def car_class():
+    bmw = Car('Black', 'BMW')
+    bmw.car_color()
+    bmw.car_brand()
+def date_time():
+    # Date
+    from datetime import datetime
+    date = datetime.now()  # 1
+    date_string = "27 June, 2023"  # 2
+    date_new = datetime(2019, 11, 27, 11, 27, 22)  # 3
+    print(date, 'option 1')
+    print(datetime.strptime(date_string, "%d %B, %Y"), 'option 2')
+    print(date_new, 'option 3')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
