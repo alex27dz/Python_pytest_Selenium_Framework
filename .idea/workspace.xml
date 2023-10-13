@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f9a193d-8416-436c-b38b-d3fad7efe869" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/assessments_ChatGPT.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_APIs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/func_APIs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_class_methods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_database_sql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_APIs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_sql_db_connectors.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Functionality/func_syntax_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/func_syntax_examples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Functionality/implementations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/implementations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/syntax_examples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/new_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/new_file.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +40,15 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/Users/alexdezho/Documents/Alex Inc/python_frameworks/Concepts",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alexdezho/Documents/Alex Inc/python_frameworks/Concepts&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.implementations">
     <configuration name="assessments_ChatGPT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Concepts" />

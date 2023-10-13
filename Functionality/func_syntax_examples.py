@@ -478,6 +478,18 @@ def car_class():
     bmw = Car('Black', 'BMW')
     bmw.car_color()
     bmw.car_brand()
+def class_inheritance():
+    class ParentClass:
+        def parent_method(self):
+            print("This is the parent method")
+
+    class ChildClass(ParentClass):  # attributing parent class
+        def child_method(self):
+            super().parent_method()  # Call the parent method
+            print("This is the child method")
+
+    child_instance = ChildClass()
+    child_instance.child_method()
 def date_time():
     # Date
     from datetime import datetime
@@ -487,12 +499,45 @@ def date_time():
     print(date, 'option 1')
     print(datetime.strptime(date_string, "%d %B, %Y"), 'option 2')
     print(date_new, 'option 3')
+def logging_funcs():
+    import logging
+    logging.basicConfig(filename='new_file.txt', level=logging.DEBUG, format='%(asctime)s: %(message)s')
+    logging.debug('hello')
 
+    # reading the logs file
+    file = open('new_file.txt', 'r')
+    print(file.read())
+    file.close()
+def http_requests():
+    '''
+    Requests - making HTTP request to the server and handling response
+    get request - retrieve data from server
+    post request - send data to server
+    response.status_code
+    content = response.text
+    content = response.json()
+    '''
 
+    import requests
 
+    # Making a GET request to retrieve data from a URL
+    url = 'https://example.com'
+    response = requests.get(url)
+    statuscode = response.status_code  # Check the status code of the response
+    content = response.text
 
+    # Making a POST request with data
+    post_url = 'https://example.com/post'
+    data = {'key': 'value'}
+    post_response = requests.post(post_url, data=data)
+    post_statuscode = post_response.status_code
+    post_content = post_response.text
 
-
+    # Handling JSON data in a response
+    json_url = 'https://api.example.com/data.json'
+    json_response = requests.get(json_url)
+    json_statuscode = json_response.status_code
+    json_data = json_response.json()
 
 
 

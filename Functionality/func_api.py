@@ -1,30 +1,3 @@
-'''
-API requests are the mechanisms by which one software application sends a request
-to another application's API to perform certain actions
-or retrieve specific information.
-
-Components of an API Request:
-* HTTP Method (Request Verb): The HTTP method specifies the type of action you want to perform on the resource. Common methods include:
-    * GET: Retrieve data from the server.
-    * POST: Send data to the server to create a new resource.
-    * PUT: Update an existing resource on the server.
-    * DELETE: Delete a resource on the server.
-* URL (Uniform Resource Locator): The URL identifies the specific endpoint (resource) on the server that the request is targeting.
-* Headers: Headers provide additional information about the request, such as authentication tokens, content type, and more.
-* Request Body (Optional): For methods like POST and PUT, the request body contains the data you're sending to the server.
-
-API Response:
-After sending an API request, the server processes the request and sends back an API response.
-The response typically includes:
-    * Status Code: A three-digit code indicating the outcome of the request (e.g., 200 for success, 404 for not found, 500 for internal server error).
-    * Headers: Additional metadata about the response.
-    * Response Body: The actual data sent by the server in response to the request. This can be in various formats like JSON, XML, HTML, etc.
-
-Authentication:
-Many APIs require authentication to ensure only authorized users can access their resources.
-This is often done using tokens (API keys, access tokens, etc.) that are included in the request headers.
-'''
-
 import requests
 import api
 import pytest
