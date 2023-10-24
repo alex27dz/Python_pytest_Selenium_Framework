@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2f9a193d-8416-436c-b38b-d3fad7efe869" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_APIs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_fixtures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_sql_db_connectors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_syntax_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/func_syntax_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/implementations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/implementations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/new_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/new_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/Interview_Questions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_sql_connectors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_syntax_examples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_test_class_methods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/func_test_fixtures.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
