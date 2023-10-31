@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2f9a193d-8416-436c-b38b-d3fad7efe869" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/Interview_Questions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_sql_connectors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_syntax_examples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_test_class_methods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functionality/func_test_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/implementations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/implementations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/performance_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/performance_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functionality/sql_connectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functionality/sql_connectors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_performance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_suit.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.implementations">
+  <component name="RunManager" selected="Python.sel">
     <configuration name="assessments_ChatGPT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Concepts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,27 +63,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functionality/assessments_ChatGPT.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="func_database_sql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Concepts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functionality" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functionality/func_database_sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,13 +134,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Concepts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functionality" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functionality/sel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sel" />
         <item itemvalue="Python.implementations" />
         <item itemvalue="Python.func_syntax_examples" />
         <item itemvalue="Python.new_file" />
         <item itemvalue="Python.assessments_ChatGPT" />
-        <item itemvalue="Python.func_database_sql" />
       </list>
     </recent_temporary>
   </component>
