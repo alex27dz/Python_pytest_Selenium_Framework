@@ -4402,3 +4402,11 @@ def runtime():
     print("Elapsed time: ", elapsed_time)
 def closeweb():
     driver.close()
+
+
+
+
+
+
+
+

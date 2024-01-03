@@ -1,6 +1,3 @@
-print('Python Syntax')
-
-
 def variables():
     name = 'alex'
     age = 15

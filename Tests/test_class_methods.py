@@ -32,7 +32,7 @@ teardown_method(self, method)
 teardown_class(cls)
 '''
 
-class TestExample:
+class Test_Class_Example:
     @classmethod
     def setup_class(cls):
         print("Setting up the test class...")

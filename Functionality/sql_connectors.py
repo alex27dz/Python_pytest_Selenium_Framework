@@ -30,7 +30,6 @@ def mysql_connector():
     conn.close()
 
 
-
 def sql_microsoft_connector():
     # Define the connection string parameters
     server_name = "ltc-ist-08-cc-0019-sat-sql-ewc3a.database.windows.net,1433"  # Replace with your SQL Server's hostname
@@ -49,4 +48,5 @@ def sql_microsoft_connector():
     print(cursor)  # connection
     cursor.close()  # Close the cursor and connection when done
     connection.close()
+
 
