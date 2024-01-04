@@ -3,7 +3,7 @@ import pytest
 import requests
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
-import api
+
 
 '''
 * Latency Testing - To measure the time it takes for the API to respond to requests, Script Description: Records the time it takes to receive a response for each API request.
