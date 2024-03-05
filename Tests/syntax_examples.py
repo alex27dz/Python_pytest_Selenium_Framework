@@ -535,7 +535,13 @@ def http_requests():
     json_response = requests.get(json_url)
     json_statuscode = json_response.status_code
     json_data = json_response.json()
-
+def seleniumopenweb():
+    import time
+    from selenium import webdriver
+    driver = webdriver.Chrome()
+    driver.get('https://www.google.com/')
+    driver.maximize_window()
+    time.sleep(2)
 
 
 
