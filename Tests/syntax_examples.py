@@ -1,3 +1,4 @@
+# Data types
 def variables():
     name = 'alex'
     age = 15
@@ -14,6 +15,8 @@ def strings():
     print(string[0])  # String indexing
     print(string[1:4])  # String Slicing
     len(string)  # Returns the length of the string.
+    newstring = string[::-1]  # Reverting the string
+    print(newstring)
     string.lower()  # Returns the lowercase version of the string.string.upper(): Returns the uppercase version of the string.
     string.strip()  # Removes leading and trailing whitespace from the string.
     string.replace(old, new)  # Replaces all occurrences of old in the string with new.
@@ -49,6 +52,66 @@ def lists():
     listb.clear()  # Removes all elements from the list
     iterable = 'a'
     listb.extend(iterable)  # Appends the elements of an iterable to the end of the list.
+def nums():
+    num = 12345678
+    print(num,type(num))
+    newnum = str(num)
+    newnum = newnum[::-1]
+    print(newnum, type(newnum))
+    newnewnum = int(newnum)
+    print(newnewnum, type(newnewnum))
+    list = [1,2,3,4]
+    list.append(5)
+    print(list)
+    list.clear()
+    print(list)
+def matrix():
+    matrix = [
+        [1,2,3,4],
+        [5,6,7,8]
+    ]
+    print(matrix)
+    print(matrix[0][0], ' first item in first row and column')
+    del matrix[0][0]  # delete
+    print(matrix, ' after deletion')
+    matrix[0].append(1)  # append
+    matrix[0].sort()  # sorting the list
+    print(matrix, ' append')
+def matrixofdictsfunc():
+
+    dictionary = {
+        'alex': 31,
+        'Jamoi': 27,
+        'Oleg': 39
+    }
+
+    dictionarycar = {
+        'BMW': 'Black',
+        'Nissan': 'white',
+        'BMWX5': 'Cream'
+    }
+
+    fruits = {
+            "apple": 1,
+            "banana": 2,
+            "cherry": 3
+    }
+
+    Tools = {
+            "python": 1,
+            "pytest": 2,
+            "selenium": 3
+        }
+
+
+    matrixofdicts = [
+        [dictionary, dictionarycar],
+        [fruits, Tools]
+    ]
+
+    print(matrixofdicts)
+    print(matrixofdicts[0][0])
+    print(matrixofdicts[1])
 def dictionary():
     fruits = {
         "apple": 1,
@@ -126,6 +189,85 @@ def dictionary():
 
     print(my_dict.items())
     print(len(my_dict))
+def stringsrevert():
+    string = 'example'
+    print(string)
+    newstring = string[::-1]  # Reverting the string
+    print(newstring)
+def duplications():
+    string = 'independence'
+    k = 0
+    for i in string:
+        if string.count(i) > 1:
+            print(i, k)
+        k += 1
+# If/ For / While loops
+def if_statement():
+    # if statements
+    age = 19
+    if age > 18:
+        print('adult')
+    else:
+        print('child')
+def for_while_loops():
+    # For Loops
+    for i in range(1, 10):
+        print(i, 'for loop')
+
+    name = 'alex'
+    for i in name:
+        print(i, 'i in string')
+    i = 0
+
+    while i < 10:
+        print(i, 'while loop')
+        i += 1
+# Functions
+def justafunction(a):
+    return a
+def function_example():
+    print('doing something')
+    return True
+# OOB - Classes and Objects / Inheritance / Encapsulation /
+class Car:
+    def __init__(self, color, brand):
+        self.color = color
+        self.brand = brand
+
+    def car_color(self):
+        print(self.color)
+
+    def car_brand(self):
+        print(self.brand)
+class FirstPage:
+    def __init__(self, username, password):
+        self.user = username
+        self.password = password
+
+    def usernameprint(self):
+        print(self.user, self.password)
+lyftpage = FirstPage('alex27dz', 'NV27vnmc!')
+lyftpage.usernameprint()
+def encapsulation():
+    class Person:
+        def __init__(self, name, secret):
+            self.name = name
+            self.__secret = secret
+
+        def reveal_secret(self):
+            return self.__secret
+
+    person = Person("John", "I love Python")
+    print(person.name)  # Accessible
+    print(person.reveal_secret())  # Accessible through a method
+    print(person.__secret)
+def seleniumopenweb():
+    import time
+    from selenium import webdriver
+    driver = webdriver.Chrome()
+    driver.get('https://www.google.com/')
+    driver.maximize_window()
+    time.sleep(2)
 def gmail_send():
     import yagmail  # working with yaGmail
 
@@ -307,26 +449,6 @@ def built_in_funcs():
     zipped = zip(numbers, letters)
     for item in zipped:
         print(item)  # Output: # (1, 'A')# (2, 'B')# (3, 'C')
-def if_statement():
-    # if statements
-    age = 19
-    if age > 18:
-        print('adult')
-    else:
-        print('child')
-def for_while_loops():
-    # For Loops
-    for i in range(1, 10):
-        print(i, 'for loop')
-
-    name = 'alex'
-    for i in name:
-        print(i, 'i in string')
-    i = 0
-
-    while i < 10:
-        print(i, 'while loop')
-        i += 1
 def break_continue():
     # Control Flow
     for i in range(1, 10):
@@ -337,9 +459,6 @@ def break_continue():
         if i == 5:
             continue
         print(i)
-def function_example():
-    print('doing something')
-    return True
 def yield_functionality():
     # Yield - temporarily suspends execution and returns the yielded value (using generator)
     # Instead of using return, we use the yield keyword. This turns the function into a generator,
@@ -542,7 +661,6 @@ def seleniumopenweb():
     driver.get('https://www.google.com/')
     driver.maximize_window()
     time.sleep(2)
-
 
 
 

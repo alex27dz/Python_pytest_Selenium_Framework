@@ -15,5 +15,3 @@ def test_somthing(fixture_func_hi, fixture_func_bye):
     assert fixture_func_hi == 'hi', 'Was expected to get hi'
     assert fixture_func_bye == 'bye', 'Was expected to get bye'
 
-
-
