@@ -187,7 +187,7 @@ def mySQL_func_select_top_limit ():
     db.close()
     print('\nconnection closed')
 
-# JOIN
+# JOIN users, users2
 
 # DELETE
 

@@ -6,8 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="2f9a193d-8416-436c-b38b-d3fad7efe869" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/UI_BMW.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/sql_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/sql_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/API_functionality.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/API_functionality.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/BMW.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/BMW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/UI_training_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/UI_training_program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/api_perfromnace_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/api_perfromnace_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/performance_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/performance_API.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/performance_UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/performance_UI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/selenium_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/selenium_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/sql_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/sql_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/sqltest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/sqltest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/syntax_Interviews.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/syntax_Interviews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/syntax_SQL_connectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/syntax_SQL_connectors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/syntax_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/syntax_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/syntax_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/syntax_fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_functionaluty_UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_functionaluty_UI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +70,11 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Classes_Functions" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.sql_all">
     <configuration name="UI_BMW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Concepts" />
@@ -93,7 +111,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classes_Functions/practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/selenium_all.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classes_Functions/selenium_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +155,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/sql_all.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classes_Functions/sql_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +177,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/sqltest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classes_Functions/sqltest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />

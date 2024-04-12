@@ -1,5 +1,4 @@
-import pytest
-from UI_training_program import *
+from Classes_Functions.UI_training_program import *
 
 def test_full_training_program_creation_JHSC():
     print('Start')
