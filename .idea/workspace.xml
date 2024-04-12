@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f9a193d-8416-436c-b38b-d3fad7efe869" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/selenium_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/selenium_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/UI_BMW.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/sql_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/sql_all.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,26 +36,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.pytest for practice.test_hello.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for syntax_fixtures.test_somthing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UI_BMW.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chatGPT.executor&quot;: &quot;Run&quot;,
-    &quot;Python.new (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.new.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selenium_all.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sql_all.executor&quot;: &quot;Run&quot;,
-    &quot;Python.syntax_examples.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/alexdezho/Documents/Alex Inc/python_frameworks/Concepts&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.pytest for practice.test_hello.executor": "Run",
+    "Python tests.pytest for syntax_fixtures.test_somthing.executor": "Run",
+    "Python.UI_BMW.executor": "Run",
+    "Python.chatGPT.executor": "Run",
+    "Python.new (1).executor": "Run",
+    "Python.new.executor": "Run",
+    "Python.practice.executor": "Run",
+    "Python.scratch.executor": "Run",
+    "Python.selenium_all.executor": "Run",
+    "Python.sql_all.executor": "Run",
+    "Python.sqltest.executor": "Run",
+    "Python.syntax_examples.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "/Users/alexdezho/Documents/Alex Inc/python_frameworks/Concepts",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.sql_all">
     <configuration name="UI_BMW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Concepts" />
@@ -145,30 +146,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for practice.test_hello" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="sqltest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Concepts" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;practice.test_hello&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/sqltest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.sql_all" />
+        <item itemvalue="Python.sqltest" />
         <item itemvalue="Python.UI_BMW" />
         <item itemvalue="Python.selenium_all" />
         <item itemvalue="Python.practice" />
-        <item itemvalue="Python tests.pytest for practice.test_hello" />
       </list>
     </recent_temporary>
   </component>
