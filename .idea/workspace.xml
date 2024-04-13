@@ -6,21 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f9a193d-8416-436c-b38b-d3fad7efe869" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/API_functionality.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/API_functionality.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/BMW.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/BMW.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/UI_training_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/UI_training_program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/api_perfromnace_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/api_perfromnace_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/performance_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/performance_API.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/performance_UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/performance_UI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/selenium_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/selenium_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/sql_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/sql_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/sqltest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/sqltest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/syntax_Interviews.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/syntax_Interviews.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/syntax_SQL_connectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/syntax_SQL_connectors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/syntax_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/syntax_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/syntax_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/syntax_fixtures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_functionaluty_UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_functionaluty_UI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes_Functions/sql_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/sql_all.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,27 +35,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.pytest for practice.test_hello.executor": "Run",
-    "Python tests.pytest for syntax_fixtures.test_somthing.executor": "Run",
-    "Python.UI_BMW.executor": "Run",
-    "Python.chatGPT.executor": "Run",
-    "Python.new (1).executor": "Run",
-    "Python.new.executor": "Run",
-    "Python.practice.executor": "Run",
-    "Python.scratch.executor": "Run",
-    "Python.selenium_all.executor": "Run",
-    "Python.sql_all.executor": "Run",
-    "Python.sqltest.executor": "Run",
-    "Python.syntax_examples.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/Users/alexdezho/Documents/Alex Inc/python_frameworks/Concepts",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for practice.test_hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for syntax_fixtures.test_somthing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UI_BMW.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chatGPT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.new (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.new.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_all.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sql_all.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sqltest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.syntax_examples.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alexdezho/Documents/Alex Inc/python_frameworks/Concepts&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Classes_Functions" />

@@ -16,7 +16,7 @@ def mySQL_func_connection():
     db.commit()
     db.close()
 
-# SELECT
+# SELECT FROM | WHERE | ORDER BY | ASC | DESC | AND | OR | NOT
 def mySQL_func_select():
     print('Connect to MySQL server')
     db = mysql.connector.connect(
@@ -88,7 +88,7 @@ def mySQL_func_select():
     db.close()
     print('\nconnection closed')
 
-# INSERT
+# INSERT INTO
 def mySQL_func_insert():
     print('Connect to MySQL server')
     db = mysql.connector.connect(
@@ -122,7 +122,7 @@ def mySQL_func_insert():
     db.close()
     print('\nconnection closed')
 
-# WHERE - sub query and aggregation (group by and having count, sum, =, any condition)
+# WHERE - any condition | sub query and aggregation (group by and having count, sum, =, )
 def mySQL_func_select_aggregation():
     print('Connect to MySQL server')
     db = mysql.connector.connect(
@@ -157,7 +157,7 @@ def mySQL_func_select_aggregation():
     db.close()
     print('\nconnection closed')
 
-# TOP/ Limit
+# TOP | Limit
 def mySQL_func_select_top_limit ():
     print('Connect to MySQL server')
     db = mysql.connector.connect(
@@ -187,7 +187,34 @@ def mySQL_func_select_top_limit ():
     db.close()
     print('\nconnection closed')
 
-# JOIN users, users2
+# UNION | JOIN - combining selection from two different tables
+def mySQL_func_select_union():
+    print('Connect to MySQL server')
+    db = mysql.connector.connect(
+        host='localhost',  # ip when it will be on cloud
+        user='root',
+        passwd='NV27vnmc',
+        database='alex_db'
+    )
+    print(db)  # checking our connection to DB
+    print("Connected to the MySQL database")
+    mycursor = db.cursor()  # Create a cursor object to interact with the database
+    print('\nUNION')
+    mycursor.execute("SELECT full_name, phone_number FROM users UNION SELECT name, phone FROM users2")  # Execute a query to fetch data from a table
+    rows = mycursor.fetchall()  # Fetch all rows from the result set
+    for row in rows:  # Display the fetched data
+        print(row)
+
+    # Close the cursor and connection when done
+    mycursor.close()
+    db.commit()
+    db.close()
+    print('\nconnection closed')
+
+
+# MIN MAX
+
+# Having
 
 # DELETE
 
@@ -199,7 +226,12 @@ def mySQL_func_select_top_limit ():
 
 # DROP TABLE - deletes a table
 
-# MIN MAX
+
+
+
+
+
+
 
 
 
