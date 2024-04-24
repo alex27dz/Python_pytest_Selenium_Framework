@@ -30,52 +30,33 @@ element.click()
 
 # Waiting - Implicit wait - regular wait
 driver.implicitly_wait(10)
-
 # Waiting - Explicit wait - until certain element is located
 element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "myElementId")))
-
-
-
-
-
-
-# edge cases
-
-# pop up windows - handle bmw page
-
-# tabs switch windows
-
-
-# pop up and tabs windows
-
-# screenshot
-
-# scrolling
-
-
-# pop up windows, jump on other tabs
-
-# error codes
-
-# Selenium - exemptions handling
-
-# Stail elements exception
-
-# How to test broken links in selenium
-
-# Exceptions
-
-# download files upload files
 
 # closing driver
 driver.close()
 driver.quit()
 
+# pop up windows | Tabs # tabs switch windows
+def tabsopener():
+    driver.get('https://www.bmw.ca/')  # Open the first tab with a specific URL
+    driver.execute_script("window.open('');")  # Open a second tab using JavaScript
+    driver.switch_to.window(driver.window_handles[1])  # Now, the browser has two tabs, switch to the new tab using window_handles
+    driver.get('https://www.bing.com')  # Navigate to a different URL in the second tab
+    time.sleep(2)
+    # Switch back to the first tab if needed
+    driver.switch_to.window(driver.window_handles[0])
+    time.sleep(2)
+    # Switch back to the second tab if needed
+    driver.switch_to.window(driver.window_handles[1])
+    time.sleep(2)
 
-
-
-
-
+# download files upload files
+# edge cases
+# screenshot
+# scrolling
+# error codes - Exceptions handling Stale elements exception
+# How to test broken links in selenium
 
 
 

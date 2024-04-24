@@ -4,17 +4,65 @@ import mysql.connector
 def mySQL_func_connection():
     print('Connect to MySQL server')
     db = mysql.connector.connect(
-        host='localhost',  # ip when it will be on cloud
-        user='root',
-        passwd='NV27vnmc',
-        database='alex_db'
+        host='localhost',  # ip - on cloud
+        user='root',  # username
+        passwd='NV27vnmc',  # password
+        database='alex_db'  # DB name
     )
-    print(db)  # checking our connection to DB
+
+    # checking connection to DB
+    print(db)
     print("Connected to the MySQL database")
-    mycursor = db.cursor()  # Create a cursor object to interact with the database
-    mycursor.close()  # Close the cursor and connection when done
+
+    # Create a cursor object to interact with the database
+    mycursor = db.cursor()
+
+    # Close the cursor and connection when done
+    mycursor.close()
     db.commit()
     db.close()
+    print('\nconnection closed')
+
+# Playing with DB
+def interactingwithsql():
+    print('Connect to MySQL server')
+    db = mysql.connector.connect(
+        host='localhost',  # ip - on cloud
+        user='root',  # username
+        passwd='NV27vnmc',  # password
+        database='alex_db'  # DB name
+    )
+
+    # checking connection to DB
+    print(db)
+    print("Connected to the MySQL database")
+
+    # Create a cursor object to interact with the database
+    mycursor = db.cursor()
+
+    body_select = '''
+    SELECT * FROM users
+    '''
+    body_union = '''
+    SELECT phone_number,full_name FROM users 
+    UNION 
+    SELECT phone, name FROM users2
+    '''
+    body_top = '''
+    SELECT full_name FROM users limit 2
+    '''
+    mycursor.execute(body_select)
+    data = mycursor.fetchall()
+    # print(data)
+    # printing for better format
+    for line in data:
+        print(line)
+
+    # Close the cursor and connection when done
+    mycursor.close()
+    db.commit()
+    db.close()
+    print('\nconnection closed')
 
 # SELECT FROM | WHERE | ORDER BY | ASC | DESC | AND | OR | NOT
 def mySQL_func_select():
@@ -213,25 +261,12 @@ def mySQL_func_select_union():
 
 
 # MIN MAX
-
 # Having
-
 # DELETE
-
 # UPDATE
-
 # CREATE DATABASE - creates a new database
-
 # CREATE TABLE - creates a new table
-
 # DROP TABLE - deletes a table
-
-
-
-
-
-
-
 
 
 
