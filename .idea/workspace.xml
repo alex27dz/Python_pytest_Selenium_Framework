@@ -7,9 +7,10 @@
     <list default="true" id="2f9a193d-8416-436c-b38b-d3fad7efe869" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes_Functions/BMW.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/BMW.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes_Functions/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes_Functions/api_perfromnace_all.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes_Functions/practice.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes_Functions/selenium_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/selenium_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes_Functions/sql_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes_Functions/sql_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Check_Failures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/Check_Failures.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     "Python tests.pytest for practice.test_hello.executor": "Run",
     "Python tests.pytest for syntax_fixtures.test_somthing.executor": "Run",
     "Python.BMW.executor": "Run",
+    "Python.Check_Failures.executor": "Debug",
     "Python.UI_BMW.executor": "Run",
     "Python.chatGPT.executor": "Run",
     "Python.new (1).executor": "Run",
@@ -62,10 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tasks" />
       <recent name="$PROJECT_DIR$/Classes_Functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BMW">
+  <component name="RunManager" selected="Python.Check_Failures">
     <configuration name="BMW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Concepts" />
       <option name="ENV_FILES" value="" />
@@ -88,6 +91,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Check_Failures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Concepts" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classes_Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tasks/Check_Failures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="UI_BMW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Concepts" />
       <option name="ENV_FILES" value="" />
@@ -102,28 +127,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/UI_BMW.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="selenium_all" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Concepts" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classes_Functions/selenium_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,18 +181,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Check_Failures" />
         <item itemvalue="Python.BMW" />
         <item itemvalue="Python.sql_all" />
         <item itemvalue="Python.sqltest" />
         <item itemvalue="Python.UI_BMW" />
-        <item itemvalue="Python.selenium_all" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+        <option value="bundled-python-sdk-eebebe6c2be4-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15325.20" />
       </set>
     </attachedChunks>
   </component>
@@ -203,5 +206,16 @@
       <updated>1692905951955</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tasks/Check_Failures.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

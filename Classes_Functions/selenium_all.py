@@ -51,6 +51,28 @@ def tabsopener():
     driver.switch_to.window(driver.window_handles[1])
     time.sleep(2)
 
+
+# Shadow-root - Javascript execution
+# executing Javascript to work with the shadow-root elements
+def bmw_homepage_popup_shadow_root():
+    driver.get('https://www.bmw.ca/')  # opening the URL/APP
+    driver.maximize_window()  # maximize window
+    time.sleep(3)  # Better to use WebDriverWait instead of sleep where possible.
+
+    # Replace 'host-element-selector' with the selector + 'button-selector-inside-shadow' with the selector inside the DOM
+    element = driver.execute_script("""
+        var host = document.querySelector('epaas-consent-drawer-shell');
+        var shadowRoot = host.shadowRoot;
+        return shadowRoot.querySelector('button.accept-button');
+    """)
+
+    # Click the element
+    driver.execute_script("arguments[0].click();", element)
+    print('shadow-root pop up ')
+    time.sleep(3)
+    # Always a good practice to close the browser when done
+    driver.quit()
+
 # download files upload files
 # edge cases
 # screenshot
