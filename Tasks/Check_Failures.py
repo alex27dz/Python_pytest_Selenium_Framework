@@ -45,6 +45,8 @@ def process_input_data(input_lines: List[str]) -> List[Tuple[str, str, str, str,
 
 
 def calculate_average_failures(data: List[Tuple[str, str, str, str, int, int]]) -> Tuple[Dict[str, float], Dict[str, float], Dict[str, float]]:
+
+    # Setting up new 3 Dictionaries with default values
     hw_failures = defaultdict(lambda: [0, 0])  # type: Dict[str, List[int]]
     fw_failures = defaultdict(lambda: [0, 0])  # type: Dict[str, List[int]]
     loc_failures = defaultdict(lambda: [0, 0])  # type: Dict[str, List[int]]
@@ -61,6 +63,7 @@ def calculate_average_failures(data: List[Tuple[str, str, str, str, int, int]]) 
         loc_failures[location][0] += number_failures
         loc_failures[location][1] += days_deployed
 
+    # new dictionaries for avrage per day
     avg_hw_failures = {k: v[0] / v[1] for k, v in hw_failures.items()}
     avg_fw_failures = {k: v[0] / v[1] for k, v in fw_failures.items()}
     avg_loc_failures = {k: v[0] / v[1] for k, v in loc_failures.items()}
@@ -72,6 +75,7 @@ def find_highest_failures(avg_hw_failures: Dict[str, float], avg_fw_failures: Di
     max_failures = -1
     max_properties = []
 
+    # Finiding the maximum per each type
     for property_dict, name in [(avg_hw_failures, HW_REVISION_OUTPUT), (avg_fw_failures, FW_VERSION_OUTPUT), (avg_loc_failures, LOCATION_OUTPUT)]:
         for prop, avg_fail in property_dict.items():
             if avg_fail > max_failures:
@@ -93,7 +97,10 @@ def main(input_lines: List[str]) -> None:
         print(NO_FAILURES_OUTPUT)
         return
 
+    # Calculate failures for each criteria
     avg_hw_failures, avg_fw_failures, avg_loc_failures = calculate_average_failures(data)
+
+    #
     max_properties = find_highest_failures(avg_hw_failures, avg_fw_failures, avg_loc_failures)
 
     if not max_properties:
