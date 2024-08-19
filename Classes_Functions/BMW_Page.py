@@ -6,9 +6,15 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
+import chromedriver_autoinstaller
 
+
+# Automatically install and set up ChromeDriver
+# chromedriver_autoinstaller.install()
+# ChromeDriverManager().install()
 # setup webdriver
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 # executing Javascript to work with the shadow-root elements
 def bmw_homepage_popup_shadow_root():
